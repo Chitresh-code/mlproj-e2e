@@ -163,3 +163,5 @@ cython_debug/
 
 # Requirements
 requirements.txt
+
+artifacts/

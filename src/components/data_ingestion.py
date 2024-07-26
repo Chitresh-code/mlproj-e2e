@@ -18,6 +18,13 @@ class DataIngestion:
         self.ingestion_config = DataIngestionConfig()
     
     def initiate_data_ingestion(self):
+        """
+        This method handles the data ingestion process, which includes reading a dataset, saving it,
+        performing a train-test split, and saving the resulting splits into specified file paths.
+        
+        Returns:
+            tuple: Paths to the train and test datasets.
+        """
         logging.info("Entered the data ingestion method/component")
         
         try:

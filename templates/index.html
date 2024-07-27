@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Student Exam Performance Indicator</title>
+        <meta name="description" content="A machine learning project to predict student exam performance.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #03346E;
+                color: #333;
+            }
+            header {
+                background-color: #021526;
+                color: white;
+                padding: 1rem 0;
+                text-align: center;
+            }
+            nav {
+                display: flex;
+                justify-content: center;
+                background-color: #433D8B;
+                padding: 10px 0;
+            }
+            nav a {
+                color: black;
+                padding: 14px 20px;
+                text-decoration: none;
+                text-align: center;
+            }
+            nav a:hover {
+                background-color: #6EACDA;
+                color: black;
+            }
+            main {
+                padding: 2rem;
+                max-width: 800px;
+                margin: 0 auto;
+                background: white;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            h1, h2 {
+                margin-top: 0;
+            }
+            p {
+                line-height: 1.6;
+            }
+            .features {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+            }
+            .feature-item {
+                flex: 1 1 calc(33% - 20px);
+                background: #173B45;
+                color: white;
+                margin: 10px;
+                padding: 20px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                border-radius: 8px;
+            }
+            .feature-item h3 {
+                margin-top: 0;
+            }
+            .btn-container {
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+            }
+            .btn {
+                display: inline-block;
+                padding: 10px 20px;
+                color: white;
+                background-color: #173B45;
+                border: none;
+                border-radius: 5px;
+                text-decoration: none;
+                font-size: 16px;
+            }
+            .btn:hover {
+                background-color: #021526;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Student Exam Performance Indicator</h1>
+        </header>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/predictdata">Predict</a>
+            <a href="https://www.chitresh.tech/about" target="_blank">About</a>
+            <a href="https://www.linkedin.com/in/chitresh-gyanani/" target="_blank">Contact</a>
+        </nav>
+        <main>
+            <h2>Welcome to the Student Exam Performance Indicator</h2>
+            <p>This project aims to predict student exam performance based on various factors using machine learning techniques. You can use the tool to get predictions by entering the necessary data.</p>
+            <section id="features" class="features">
+                <div class="feature-item">
+                    <h3>Data Analysis</h3>
+                    <p>Comprehensive data analysis to understand the key factors influencing student performance.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Machine Learning</h3>
+                    <p>Utilizing advanced machine learning algorithms to predict outcomes accurately.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>User Friendly</h3>
+                    <p>Easy-to-use interface for inputting data and viewing predictions.</p>
+                </div>
+            </section>
+            <div class="btn-container">
+                <a href="/predictdata" class="btn">Predict Student Performance</a>
+            </div>
+        </main>
+        <footer>
+        <script>
+            // JavaScript for additional functionality (if needed in the future)
+        </script>
+    </body>
+</html>
